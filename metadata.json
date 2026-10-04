@@ -1,0 +1,7 @@
+{
+  "name": "Mopping & Vacuum Robot Deals - מציאון שואבי אבק",
+  "description": "ריכוז שואבי אבק רובוטיים ואלחוטיים מעודפים, תצוגות ומחודשים מהחנויות המובילות בישראל",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "last_updated": "04/10/2026 14:01",
+  "total_count": 20,
+  "products": [
+    {
+      "id": "mi_1305",
+      "store": "Mi-IL",
+      "title": "שואב אבק שוטף רובוטי שיאומי דגם Xiaomi Robot Vacuum  S10 Plus - תצוגה",
+      "url": "https://www.mi-il.co.il/product/xiaomi-robot-vacuum-s10plus-t",
+      "image": "https://www.mi-il.co.il/ea6908af-0cdc-47fc-b69c-a6309bc5118b.jpg",
+      "price": 699,
+      "price_formatted": "₪699",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "mi_1577",
+      "store": "Mi-IL",
+      "title": "שואב אבק רובוטי שוטף שיאומי דגם Xiaomi Robot Vacuum E10 - תצוגה",
+      "url": "https://www.mi-il.co.il/product/xiaomi-robot-vacuum-e10-ot",
+      "image": "https://www.mi-il.co.il/e9334226-5ede-4dd7-baba-998af0a8573b.jpg",
+      "price": 449,
+      "price_formatted": "₪449",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "mi_1333",
+      "store": "Mi-IL",
+      "title": "שואב אבק רובוטי שוטף שיאומי דגם Xiaomi Robot Vacuum S10T - תצוגה",
+      "url": "https://www.mi-il.co.il/product/xiaomi-robot-vacuum-s10t-t",
+      "image": "https://www.mi-il.co.il/bf0cb02c-8616-473b-9b0b-c482b765ee44.jpg",
+      "price": 799,
+      "price_formatted": "₪799",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "mi_1615",
+      "store": "Mi-IL",
+      "title": "שואב אבק שוטף רובוטי שיאומי דגם Xiaomi Robot Vacuum S20 בצבע שחור - תצוגה",
+      "url": "https://www.mi-il.co.il/product/xiaomi-robot-vacuum-s20-black-ot",
+      "image": "https://www.mi-il.co.il/64e1d863-30fc-4b1d-ae6a-735d8bedaddc.jpg",
+      "price": 699,
+      "price_formatted": "₪699",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "mi_1633",
+      "store": "Mi-IL",
+      "title": "שואב אבק אלחוטי נטען שוטף דגם Mi Vacuum Cleaner G10 Plus - תצוגה",
+      "url": "https://www.mi-il.co.il/product/mi-vacuum-cleaner-g10-plus-ot",
+      "image": "https://www.mi-il.co.il/22583f4d-1c4a-42f3-93d3-0ea4bb4c7ad8.png",
+      "price": 599,
+      "price_formatted": "₪599",
+      "type": "handheld",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": true,
+      "is_robot": false,
+      "categories": [
+        "mopping",
+        "manual"
+      ]
+    },
+    {
+      "id": "xi_0",
+      "store": "XiStore",
+      "title": "שואב - שוטף רובוטי דרימי Dreame L40 לבן - 24 חודשים אחריות יבואן רשמי",
+      "url": "https://www.xistore.co.il/items/8452498-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99-%D7%93%D7%A8%D7%99%D7%9E%D7%99-Dreame-L40-%D7%9C%D7%91%D7%9F-24-%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%9D-%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99-",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/18079423/show/5ecf0bcdce0bb1e0e28010f3856cf68d.png",
+      "price": 2290,
+      "price_formatted": "₪2,290",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "xi_1",
+      "store": "XiStore",
+      "title": "אריזה פגומה - ‏שואב אבק רובוטי ‏מקרצף Dreame L20 Ultra לבן - אחריות יבואן רשמי - 12 חודשים",
+      "url": "https://www.xistore.co.il/items/6601996-%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%A4%D7%92%D7%95%D7%9E%D7%94-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99-%D7%9E%D7%A7%D7%A8%D7%A6%D7%A3-Dreame-L20-Ultra-%D7%9C%D7%91%D7%9F-%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99-12-%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%9D",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/13849695/show/5a4038fbcab8b27963b9a21165c708de.jpg",
+      "price": 1890,
+      "price_formatted": "₪1,890",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "xi_2",
+      "store": "XiStore",
+      "title": "אריזה פגומה - D20 Ultra DREAME שואב מקרצף רובוטי",
+      "url": "https://www.xistore.co.il/items/9224507-%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%A4%D7%92%D7%95%D7%9E%D7%94-D20-Ultra-DREAME-%D7%A9%D7%95%D7%90%D7%91-%D7%9E%D7%A7%D7%A8%D7%A6%D7%A3-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/23542691/show/b28f885017fbec78233af0e4ed376771.jpg",
+      "price": 1690,
+      "price_formatted": "₪1,690",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "xi_3",
+      "store": "XiStore",
+      "title": "אריזה פגומה - Dreame X40 MASTER שואב מקרצף רובוטי קומקפטי",
+      "url": "https://www.xistore.co.il/items/7873156--%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%A4%D7%92%D7%95%D7%9E%D7%94-Dreame-X40-MASTER-%D7%A9%D7%95%D7%90%D7%91-%D7%9E%D7%A7%D7%A8%D7%A6%D7%A3-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99-%D7%A7%D7%95%D7%9E%D7%A7%D7%A4%D7%98%D7%99",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/16431046/show/5090856496e88038aef36bc82a14e462.jpg",
+      "price": 3790,
+      "price_formatted": "₪3,790",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "xi_4",
+      "store": "XiStore",
+      "title": "מתצוגה- שוטף אלחוטי ושואב אבק מאובזר במוצר 1 H14 DUAL dreame",
+      "url": "https://www.xistore.co.il/items/7434480-%D7%9E%D7%AA%D7%A6%D7%95%D7%92%D7%94-%D7%A9%D7%95%D7%98%D7%A3-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%95%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%9E%D7%90%D7%95%D7%91%D7%96%D7%A8-%D7%91%D7%9E%D7%95%D7%A6%D7%A8-1-H14-DUAL-dreame-",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/15494617/show/ff04edfa58ca087ff6481d23636475a0.jpg",
+      "price": 2690,
+      "price_formatted": "₪2,690",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": true,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "manual",
+        "robot"
+      ]
+    },
+    {
+      "id": "xi_5",
+      "store": "XiStore",
+      "title": "מוצר מתצוגה -DREAME Z30 שואב אבק אלחוטי דריימי",
+      "url": "https://www.xistore.co.il/items/7900602-%D7%9E%D7%95%D7%A6%D7%A8-%D7%9E%D7%AA%D7%A6%D7%95%D7%92%D7%94-DREAME-Z30-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%A8%D7%99%D7%99%D7%9E%D7%99",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/16493935/show/e12a6537953373bede0c7669edb1feca.png",
+      "price": 1690,
+      "price_formatted": "₪1,690",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": false,
+      "is_cleaner_only": true,
+      "is_manual": true,
+      "is_robot": true,
+      "categories": [
+        "cleaners",
+        "manual",
+        "robot"
+      ]
+    },
+    {
+      "id": "xi_6",
+      "store": "XiStore",
+      "title": "מתצוגה H15 PRO שואב - שוטף אלחוטי",
+      "url": "https://www.xistore.co.il/items/8948413-%D7%9E%D7%AA%D7%A6%D7%95%D7%92%D7%94-H15-PRO-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-Dreame",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/20658017/show/3f5a69c0b64775be682fe20b97b0d952.jpg",
+      "price": 1380,
+      "price_formatted": "₪1,380",
+      "type": "handheld",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": true,
+      "is_robot": false,
+      "categories": [
+        "mopping",
+        "manual"
+      ]
+    },
+    {
+      "id": "xi_7",
+      "store": "XiStore",
+      "title": "אריזה פגומה - H13 FlexReach שואב - שוטף אלחוטי",
+      "url": "https://www.xistore.co.il/items/8970271-%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%A4%D7%92%D7%95%D7%9E%D7%94-H13-FlexReach-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-Dreame",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/20759611/show/a1c228d64e5997fc15575708e6af9a68.png",
+      "price": 1090,
+      "price_formatted": "₪1,090",
+      "type": "handheld",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": true,
+      "is_robot": false,
+      "categories": [
+        "mopping",
+        "manual"
+      ]
+    },
+    {
+      "id": "ron_0",
+      "store": "Ronlight",
+      "title": "שואב אבק רובוטי שוטף Narwal Freo X Ultra יבואן רשמי מחודש",
+      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%a9%d7%95%d7%98%d7%a3-narwal-freo-x-ultra-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9%d7%9e%d7%99-%d7%9e%d7%97%d7%95/",
+      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/Narwal-Freo-X-Ultra-WHITE-1-300x300.png",
+      "price": 999,
+      "price_formatted": "₪999",
+      "type": "robot",
+      "in_stock": false,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "ron_1",
+      "store": "Ronlight",
+      "title": "שואב אבק ומקרצף רובוטי עם תחנת ניקוי עצמי Yeedi Mop Station מחודש",
+      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%95%d7%9e%d7%a7%d7%a8%d7%a6%d7%a3-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%a2%d7%9d-%d7%aa%d7%97%d7%a0%d7%aa-%d7%a0%d7%99%d7%a7%d7%95%d7%99-%d7%a2%d7%a6/",
+      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/Mop-station-in-high-resolution-300x300.jpg",
+      "price": 1609,
+      "price_formatted": "₪1,609",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "ron_2",
+      "store": "Ronlight",
+      "title": "שואב אבק מקרצף ECOVACS DEEBOT T30 Pro OMNI – מחודש",
+      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%9e%d7%a7%d7%a8%d7%a6%d7%a3-ecovacs-deebot-t30-pro-omni-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9%d7%9e%d7%99-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
+      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/06/ECOVACS-T30-OMNI-1-300x300.png",
+      "price": 799,
+      "price_formatted": "₪799",
+      "type": "robot",
+      "in_stock": false,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "ron_3",
+      "store": "Ronlight",
+      "title": "2 ב-1 שואב רובוטי ושואב אלחוטי ECOVACS DEEBOT X2 COMBO מחודש",
+      "url": "https://www.ronlight.co.il/product/2-%d7%91-1-%d7%a9%d7%95%d7%90%d7%91-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%95%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%9c%d7%97%d7%95%d7%98%d7%99-ecovacs-deebot-x2-combo-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
+      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/05/ECOVACS-X2-COMBO-2-300x300.jpg",
+      "price": 1190,
+      "price_formatted": "₪1,190",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": true,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "manual",
+        "robot"
+      ]
+    },
+    {
+      "id": "ron_4",
+      "store": "Ronlight",
+      "title": "שואב אבק ושוטף רובוטי ECOVACS DEEBOT T9 מחודש",
+      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%95%d7%a9%d7%95%d7%98%d7%a3-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-ecovacs-deebot-t9-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
+      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/DEEBOT-T9_Left-with-OZMO-Pro-300x300.jpg",
+      "price": 499,
+      "price_formatted": "₪499",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "ron_5",
+      "store": "Ronlight",
+      "title": "שואב אבק רובוטי ושוטף DEEBOT X1 OMNI מחודש",
+      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%95%d7%a9%d7%95%d7%98%d7%a3-deebot-x1-omni-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
+      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/DEEBOT-X1-OMNI_Special-Combi-300x300.jpg",
+      "price": 1799,
+      "price_formatted": "₪1,799",
+      "type": "robot",
+      "in_stock": false,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    },
+    {
+      "id": "ron_6",
+      "store": "Ronlight",
+      "title": "שואב אבק רובוטי שוטף ומקרצף Yeedi Floor3 מחודש",
+      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%a9%d7%95%d7%98%d7%a3-%d7%95%d7%9e%d7%a7%d7%a8%d7%a6%d7%a3-yeedi-floor3-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
+      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/02-yeedi-Floor-3-300x300.jpg",
+      "price": 899,
+      "price_formatted": "₪899",
+      "type": "robot",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": false,
+      "is_robot": true,
+      "categories": [
+        "mopping",
+        "robot"
+      ]
+    }
+  ]
+}

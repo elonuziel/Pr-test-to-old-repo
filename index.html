@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מציאון שואבי אבק - עודפים ומחודשים</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-area">
+                    <div class="logo-icon">🤖🧹</div>
+                    <div>
+                        <h1>מציאון שואבי אבק עודפים ומחודשים</h1>
+                        <p class="subtitle">ריכוז שואבים רובוטיים ואלחוטיים מתצוגות ועודפים מהחנויות המובילות בישראל</p>
+                    </div>
+                </div>
+                <div class="header-stats" id="headerStats">
+                    <div class="stat-box">
+                        <span class="stat-value" id="statTotalCount">0</span>
+                        <span class="stat-label">מוצרים נמצאו</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-value" id="statLastUpdated">--/--</span>
+                        <span class="stat-label">עדכון אחרון</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Controls & Filters Section -->
+        <section class="controls-section">
+            <div class="search-bar-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="חפש לפי דגם, יצרן או תיאור (למשל: Dreame, S20, Ecovacs)...">
+                <button id="clearSearch" class="clear-btn" hidden>&times;</button>
+            </div>
+
+            <div class="filters-grid">
+                <!-- Store Filter -->
+                <div class="filter-group">
+                    <label class="filter-label">חנות / מקור:</label>
+                    <div class="filter-pills" id="storeFilters">
+                        <button class="pill active" data-store="all">הכל</button>
+                        <button class="pill" data-store="Mi-IL">Mi-IL (שיאומי)</button>
+                        <button class="pill" data-store="XiStore">XiStore</button>
+                        <button class="pill" data-store="Ronlight">Ronlight (רונלייט)</button>
+                    </div>
+                </div>
+
+                <!-- Smart Category Filter -->
+                <div class="filter-group">
+                    <label class="filter-label">קטגוריה:</label>
+                    <div class="filter-pills" id="categoryFilters">
+                        <button class="pill active" data-cat="all">הכל</button>
+                        <button class="pill" data-cat="cleaners">🧹 שואבים בלבד</button>
+                        <button class="pill" data-cat="mopping">🧼 שואבים שוטפים</button>
+                        <button class="pill" data-cat="manual">🔋 אלחוטי / ידני</button>
+                        <button class="pill" data-cat="robot">🤖 רובוטי</button>
+                    </div>
+                </div>
+
+                <!-- Sort & Availability Options -->
+                <div class="filter-group options-group">
+                    <div class="select-wrapper">
+                        <label for="sortSelect" class="filter-label">מיון לפי:</label>
+                        <select id="sortSelect" class="custom-select">
+                            <option value="price-asc">מחיר: מהנמוך לגבוה</option>
+                            <option value="price-desc">מחיר: מהגבוה לנמוך</option>
+                            <option value="title-asc">שם מוצר (א'-ת')</option>
+                        </select>
+                    </div>
+
+                    <div class="checkbox-wrapper">
+                        <label class="toggle-switch">
+                            <input type="checkbox" id="stockFilter" checked>
+                            <span class="slider"></span>
+                        </label>
+                        <span class="toggle-label">הצג רק מוצרים במלאי</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products List Grid -->
+        <section class="products-section">
+            <div class="products-header">
+                <h2 id="resultsHeading">כל המוצרים הזמינים</h2>
+                <span class="results-badge" id="resultsCount">0 מוצרים</span>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Product cards injected by JS -->
+            </div>
+
+            <div class="empty-state" id="emptyState" hidden>
+                <div class="empty-icon">🔎</div>
+                <h3>לא נמצאו שואבי אבק התואמים לחיפוש</h3>
+                <p>נסה לשנות את מילות החיפוש או להסיר חלק מהמסננים</p>
+                <button class="btn-reset" id="resetFiltersBtn">איפוס מסננים</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>אתר זה מרכז נתונים בצורה אוטומטית פעם בשבוע מחנויות העודפים של Mi-IL, XiStore ו-Ronlight.</p>
+            <p>כל התמונות, השמות והמחירים שייכים לבעלי הזכויות בחנויות המקור.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

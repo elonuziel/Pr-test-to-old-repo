@@ -1,11 +1,20 @@
-<div align="center">
+# Mopping & Vacuum Robot Outlet Deals (מציאון שואבי אבק)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+🌐 **Live Website**: [https://elonuziel.github.io/mopping-vacuum-robot/](https://elonuziel.github.io/mopping-vacuum-robot/)
 
-  <h1>Built with AI Studio</h2>
+## About
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+This project is an automated aggregator and showcase for second-hand, outlet, refurbished, and display-model vacuum cleaners (robotic and handheld/stick vacuums) from leading Israeli store outlets:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+- **Mi-IL** (Official Xiaomi Israel outlet)
+- **XiStore**
+- **Ronlight** (Official Roborock & Dreame importer outlet)
 
-</div>
+A GitHub Actions workflow automatically scrapes updated deals every week and updates `data/products.json`, keeping the web app up to date with the latest available items and pricing.
+
+## Features
+
+- **Live Site**: Browse and search deals easily on [GitHub Pages](https://elonuziel.github.io/mopping-vacuum-robot/).
+- **Automated Scraping**: Weekly automated scraping workflow via GitHub Actions (`scrape.yml`).
+- **Rich Filtering & Search**: Filter deals by store/source, vacuum type (Robotic vs. Handheld/Stick), and stock availability.
+- **Sorting**: Sort by price (ascending/descending) or product title.

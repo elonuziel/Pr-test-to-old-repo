@@ -1,0 +1,14 @@
+{
+  "name": "mopping-vacuum-robot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Deals aggregator for refurbished and outlet robot and handheld vacuum cleaners",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
