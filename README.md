@@ -1,6 +1,6 @@
 # Mopping & Vacuum Robot Outlet Deals (מציאון שואבי אבק)
 
-🌐 **Live Website**: [https://elonuziel.github.io/mopping-vacuum-robot/](https://elonuziel.github.io/mopping-vacuum-robot/)
+🌐 **Live Website**: [https://elonuziel.github.io/Pr-test-to-old-repo/](https://elonuziel.github.io/Pr-test-to-old-repo/)
 
 ## About
 
@@ -14,7 +14,7 @@ A GitHub Actions workflow automatically scrapes updated deals every week and upd
 
 ## Features
 
-- **Live Site**: Browse and search deals easily on [GitHub Pages](https://elonuziel.github.io/mopping-vacuum-robot/).
+- **Live Site**: Browse and search deals easily on [GitHub Pages](https://elonuziel.github.io/Pr-test-to-old-repo/).
 - **Automated Scraping**: Weekly automated scraping workflow via GitHub Actions (`scrape.yml`).
 - **Rich Filtering & Search**: Filter deals by store/source, vacuum type (Robotic vs. Handheld/Stick), and stock availability.
 - **Sorting**: Sort by price (ascending/descending) or product title.

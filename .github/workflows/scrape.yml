@@ -1,13 +1,23 @@
-name: Vacuum Cleaner Scraper
+name: Vacuum Cleaner Scraper & Deploy Pages
 
 on:
   schedule:
     # Runs every Sunday at 00:00 UTC
     - cron: '0 0 * * 0'
+  push:
+    branches:
+      - main
+      - master
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   scrape:
@@ -42,3 +52,19 @@ jobs:
             git commit -m "Auto-update vacuum outlet products [skip ci]"
             git push
           fi
+
+      - name: Upload GitHub Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+  deploy:
+    needs: scrape
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
