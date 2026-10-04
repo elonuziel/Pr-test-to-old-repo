@@ -69,7 +69,11 @@ GENERIC_IMAGE_PATTERNS = [
     'placeholder',
     'no-image',
     'default',
-    'bg-2'
+    'bg-2',
+    'lazy.png',
+    'compare',
+    'cancel',
+    'go_to_product'
 ]
 
 def is_generic_image(img_url):
@@ -77,6 +81,88 @@ def is_generic_image(img_url):
         return True
     u = img_url.lower()
     return any(p in u for p in GENERIC_IMAGE_PATTERNS)
+
+def extract_model_key(title):
+    """
+    Extracts normalized model identifier from vacuum title for cross-store image enrichment.
+    """
+    clean = title.lower()
+    models = [
+        's10 plus', 's10+', 's10t', 's10', 's20 plus', 's20+', 's20', 'e10',
+        'x10', 'x20 plus', 'x20 max', 'x20', 'h50 pro', 'h50', 'w30 pro',
+        's40 pro', 'g30 max', 'g10 plus', 'g10', 'g11', 'g9', 'z30',
+        'h14 dual', 'h14', 'h15 pro', 'h15', 'h13 flexreach', 'h13',
+        'l40', 'l20 ultra', 'd20 ultra', 'x40 master', 't30 pro', 'x1 omni',
+        'x2 combo', 'freo x ultra', 'floor3'
+    ]
+    for m in models:
+        if re.search(r'\b' + re.escape(m) + r'\b', clean) or m in clean:
+            return m
+    return None
+
+def extract_mi_il_cube_image(c, prod_url=None):
+    """
+    Extracts genuine product picture from Mi-IL product cube.
+    Checks data-original, data-lazy, and img attributes, avoiding generic badges.
+    Falls back to detail page og:image or gallery if needed.
+    """
+    img_src = ''
+    for img_tag in c.find_all('img'):
+        candidate = img_tag.get('data-original') or img_tag.get('data-lazy') or img_tag.get('data-src') or img_tag.get('src') or ''
+        if candidate and not is_generic_image(candidate):
+            if not candidate.startswith('http'):
+                candidate = f"https://www.mi-il.co.il{candidate}"
+            img_src = candidate
+            break
+
+    if is_generic_image(img_src) and prod_url:
+        try:
+            p_resp = requests.get(prod_url, headers=HEADERS, timeout=10)
+            p_soup = BeautifulSoup(p_resp.content, 'html.parser')
+            og = p_soup.find('meta', property='og:image')
+            if og and og.get('content'):
+                candidate = og.get('content').strip()
+                if candidate and not candidate.startswith('http'):
+                    candidate = f"https://www.mi-il.co.il{candidate}"
+                if not is_generic_image(candidate):
+                    img_src = candidate
+        except Exception as ex:
+            print(f"[!] Error fetching Mi-IL detail image for {prod_url}: {ex}")
+
+    return img_src
+
+def build_mi_image_catalog():
+    """
+    Scrapes product pictures from Mi-IL outlet and official vacuum categories
+    to create a rich reference image catalog for relevant vacuum models.
+    """
+    print("[*] Building Mi-IL product image catalog...")
+    catalog = {}
+    sources = [
+        'https://www.mi-il.co.il/sale/outlet',
+        'https://www.mi-il.co.il/category/robot-vacuum-cleaner',
+        'https://www.mi-il.co.il/category/vacuum-cleaner'
+    ]
+    for src_url in sources:
+        try:
+            resp = requests.get(src_url, headers=HEADERS, timeout=12)
+            soup = BeautifulSoup(resp.content, 'html.parser')
+            cubes = soup.find_all('div', class_=re.compile(r'product-cube'))
+            for c in cubes:
+                fullname = c.get('data-fullname') or c.get('data-fullName', '')
+                link_tag = c.find('a', class_='product') or c.find('a', href=re.compile(r'/product/'))
+                title = fullname or (link_tag.text.strip() if link_tag else '')
+                if not title:
+                    continue
+                img_url = extract_mi_il_cube_image(c)
+                if img_url and not is_generic_image(img_url):
+                    model = extract_model_key(title)
+                    if model and model not in catalog:
+                        catalog[model] = img_url
+        except Exception as e:
+            print(f"[!] Error building Mi-IL image catalog from {src_url}: {e}")
+    print(f"[+] Mi-IL image catalog built with {len(catalog)} model pictures")
+    return catalog
 
 def parse_price(price_str):
     if not price_str:
@@ -160,26 +246,7 @@ def scrape_mi_il():
             href = link_tag['href'] if link_tag and link_tag.has_attr('href') else ''
             prod_url = f"https://www.mi-il.co.il{href}" if href and not href.startswith('http') else href
 
-            img_tag = c.find('img')
-            img_src = ''
-            if img_tag:
-                img_src = img_tag.get('src') or img_tag.get('data-src') or ''
-                if img_src and not img_src.startswith('http'):
-                    img_src = f"https://www.mi-il.co.il{img_src}"
-
-            if is_generic_image(img_src) and prod_url:
-                try:
-                    p_resp = requests.get(prod_url, headers=HEADERS, timeout=10)
-                    p_soup = BeautifulSoup(p_resp.content, 'html.parser')
-                    og = p_soup.find('meta', property='og:image')
-                    if og and og.get('content'):
-                        candidate = og.get('content').strip()
-                        if candidate and not candidate.startswith('http'):
-                            candidate = f"https://www.mi-il.co.il{candidate}"
-                        if not is_generic_image(candidate):
-                            img_src = candidate
-                except Exception as ex:
-                    print(f"[!] Error fetching Mi-IL detail image for {prod_url}: {ex}")
+            img_src = extract_mi_il_cube_image(c, prod_url)
 
             price_tag = c.find('div', class_='price') or c.find('span', class_='price') or c.find('div', class_='outlet-price')
             price_text = price_tag.text.strip() if price_tag else c.get_text()
@@ -400,10 +467,27 @@ def scrape_ronlight():
 
 
 def main():
+    # Build comprehensive catalog of vacuum pictures scraped from Mi-IL
+    mi_image_catalog = build_mi_image_catalog()
+
     all_products = []
     all_products.extend(scrape_mi_il())
     all_products.extend(scrape_xistore())
     all_products.extend(scrape_ronlight())
+
+    # Add pictures scraped from Mi-IL to relevant products
+    enriched_count = 0
+    for p in all_products:
+        m_key = extract_model_key(p['title'])
+        if m_key and m_key in mi_image_catalog:
+            # If product has generic/empty image or is a Mi-IL product, attach genuine Mi-IL picture
+            if not p.get('image') or is_generic_image(p['image']) or p.get('store') == 'Mi-IL':
+                prev_img = p.get('image')
+                p['image'] = mi_image_catalog[m_key]
+                if prev_img != p['image']:
+                    enriched_count += 1
+
+    print(f"[+] Enriched {enriched_count} relevant products with pictures scraped from Mi-IL")
 
     os.makedirs('data', exist_ok=True)
     out_data = {
