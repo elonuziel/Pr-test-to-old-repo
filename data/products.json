@@ -1,6 +1,6 @@
 {
-  "last_updated": "04/10/2026 16:31",
-  "total_count": 20,
+  "last_updated": "07/10/2026 02:45",
+  "total_count": 17,
   "products": [
     {
       "id": "mi_1305",
@@ -254,25 +254,6 @@
     {
       "id": "ron_0",
       "store": "Ronlight",
-      "title": "שואב אבק רובוטי שוטף Narwal Freo X Ultra יבואן רשמי מחודש",
-      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%a9%d7%95%d7%98%d7%a3-narwal-freo-x-ultra-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9%d7%9e%d7%99-%d7%9e%d7%97%d7%95/",
-      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/Narwal-Freo-X-Ultra-WHITE-1-300x300.png",
-      "price": 999,
-      "price_formatted": "₪999",
-      "type": "robot",
-      "in_stock": false,
-      "is_mopping": true,
-      "is_cleaner_only": false,
-      "is_manual": false,
-      "is_robot": true,
-      "categories": [
-        "mopping",
-        "robot"
-      ]
-    },
-    {
-      "id": "ron_1",
-      "store": "Ronlight",
       "title": "שואב אבק ומקרצף רובוטי עם תחנת ניקוי עצמי Yeedi Mop Station מחודש",
       "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%95%d7%9e%d7%a7%d7%a8%d7%a6%d7%a3-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%a2%d7%9d-%d7%aa%d7%97%d7%a0%d7%aa-%d7%a0%d7%99%d7%a7%d7%95%d7%99-%d7%a2%d7%a6/",
       "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/Mop-station-in-high-resolution-300x300.jpg",
@@ -290,32 +271,13 @@
       ]
     },
     {
-      "id": "ron_2",
-      "store": "Ronlight",
-      "title": "שואב אבק מקרצף ECOVACS DEEBOT T30 Pro OMNI – מחודש",
-      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%9e%d7%a7%d7%a8%d7%a6%d7%a3-ecovacs-deebot-t30-pro-omni-%d7%99%d7%91%d7%95%d7%90%d7%9f-%d7%a8%d7%a9%d7%9e%d7%99-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
-      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/06/ECOVACS-T30-OMNI-1-300x300.png",
-      "price": 799,
-      "price_formatted": "₪799",
-      "type": "robot",
-      "in_stock": false,
-      "is_mopping": true,
-      "is_cleaner_only": false,
-      "is_manual": false,
-      "is_robot": true,
-      "categories": [
-        "mopping",
-        "robot"
-      ]
-    },
-    {
-      "id": "ron_3",
+      "id": "ron_1",
       "store": "Ronlight",
       "title": "2 ב-1 שואב רובוטי ושואב אלחוטי ECOVACS DEEBOT X2 COMBO מחודש",
       "url": "https://www.ronlight.co.il/product/2-%d7%91-1-%d7%a9%d7%95%d7%90%d7%91-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%95%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%9c%d7%97%d7%95%d7%98%d7%99-ecovacs-deebot-x2-combo-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
       "image": "https://www.ronlight.co.il/wp-content/uploads/2024/05/ECOVACS-X2-COMBO-2-300x300.jpg",
-      "price": 1190,
-      "price_formatted": "₪1,190",
+      "price": 899,
+      "price_formatted": "₪899",
       "type": "robot",
       "in_stock": true,
       "is_mopping": true,
@@ -329,7 +291,7 @@
       ]
     },
     {
-      "id": "ron_4",
+      "id": "ron_2",
       "store": "Ronlight",
       "title": "שואב אבק ושוטף רובוטי ECOVACS DEEBOT T9 מחודש",
       "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%95%d7%a9%d7%95%d7%98%d7%a3-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-ecovacs-deebot-t9-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
@@ -348,32 +310,13 @@
       ]
     },
     {
-      "id": "ron_5",
-      "store": "Ronlight",
-      "title": "שואב אבק רובוטי ושוטף DEEBOT X1 OMNI מחודש",
-      "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%95%d7%a9%d7%95%d7%98%d7%a3-deebot-x1-omni-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
-      "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/DEEBOT-X1-OMNI_Special-Combi-300x300.jpg",
-      "price": 1799,
-      "price_formatted": "₪1,799",
-      "type": "robot",
-      "in_stock": false,
-      "is_mopping": true,
-      "is_cleaner_only": false,
-      "is_manual": false,
-      "is_robot": true,
-      "categories": [
-        "mopping",
-        "robot"
-      ]
-    },
-    {
-      "id": "ron_6",
+      "id": "ron_3",
       "store": "Ronlight",
       "title": "שואב אבק רובוטי שוטף ומקרצף Yeedi Floor3 מחודש",
       "url": "https://www.ronlight.co.il/product/%d7%a9%d7%95%d7%90%d7%91-%d7%90%d7%91%d7%a7-%d7%a8%d7%95%d7%91%d7%95%d7%98%d7%99-%d7%a9%d7%95%d7%98%d7%a3-%d7%95%d7%9e%d7%a7%d7%a8%d7%a6%d7%a3-yeedi-floor3-%d7%9e%d7%97%d7%95%d7%93%d7%a9/",
       "image": "https://www.ronlight.co.il/wp-content/uploads/2024/04/02-yeedi-Floor-3-300x300.jpg",
-      "price": 899,
-      "price_formatted": "₪899",
+      "price": 499,
+      "price_formatted": "₪499",
       "type": "robot",
       "in_stock": true,
       "is_mopping": true,
