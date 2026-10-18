@@ -1,6 +1,6 @@
 {
-  "last_updated": "11/10/2026 05:18",
-  "total_count": 17,
+  "last_updated": "18/10/2026 04:05",
+  "total_count": 18,
   "products": [
     {
       "id": "mi_1305",
@@ -57,6 +57,25 @@
       "categories": [
         "mopping",
         "robot"
+      ]
+    },
+    {
+      "id": "mi_1612",
+      "store": "Mi-IL",
+      "title": "שואב שוטף אלחוטי נטען שיאומי Xiaomi Truclean W20 Wet Dry Vacuum - תצוגה",
+      "url": "https://www.mi-il.co.il/product/xiaomi-truclean-w20-wet-dry-vacuum-ot",
+      "image": "https://www.mi-il.co.il/images/site/products/db3cde19-c2a6-42d7-a5a2-bcd54742f402.jpg",
+      "price": 799,
+      "price_formatted": "₪799",
+      "type": "handheld",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": true,
+      "is_robot": false,
+      "categories": [
+        "mopping",
+        "manual"
       ]
     },
     {
