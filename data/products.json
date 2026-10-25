@@ -1,6 +1,6 @@
 {
-  "last_updated": "18/10/2026 04:05",
-  "total_count": 18,
+  "last_updated": "25/10/2026 00:50",
+  "total_count": 16,
   "products": [
     {
       "id": "mi_1305",
@@ -10,25 +10,6 @@
       "image": "https://www.mi-il.co.il/images/site/products/ea6908af-0cdc-47fc-b69c-a6309bc5118b.jpg",
       "price": 699,
       "price_formatted": "₪699",
-      "type": "robot",
-      "in_stock": true,
-      "is_mopping": true,
-      "is_cleaner_only": false,
-      "is_manual": false,
-      "is_robot": true,
-      "categories": [
-        "mopping",
-        "robot"
-      ]
-    },
-    {
-      "id": "mi_1577",
-      "store": "Mi-IL",
-      "title": "שואב אבק רובוטי שוטף שיאומי דגם Xiaomi Robot Vacuum E10 - תצוגה",
-      "url": "https://www.mi-il.co.il/product/xiaomi-robot-vacuum-e10-ot",
-      "image": "https://www.mi-il.co.il/images/site/products/e9334226-5ede-4dd7-baba-998af0a8573b.jpg",
-      "price": 449,
-      "price_formatted": "₪449",
       "type": "robot",
       "in_stock": true,
       "is_mopping": true,
@@ -79,13 +60,13 @@
       ]
     },
     {
-      "id": "mi_1615",
+      "id": "mi_1618",
       "store": "Mi-IL",
-      "title": "שואב אבק שוטף רובוטי שיאומי דגם Xiaomi Robot Vacuum S20 בצבע שחור - תצוגה",
-      "url": "https://www.mi-il.co.il/product/xiaomi-robot-vacuum-s20-black-ot",
-      "image": "https://www.mi-il.co.il/images/site/products/64e1d863-30fc-4b1d-ae6a-735d8bedaddc.jpg",
-      "price": 699,
-      "price_formatted": "₪699",
+      "title": "שואב אבק שוטף רובוטי שיאומי דגם Xiaomi Robot Vacuum S20 Plus בצבע לבן - תצוגה",
+      "url": "https://www.mi-il.co.il/product/xiaomi-robot-vacuum-s20plus-white-t",
+      "image": "https://www.mi-il.co.il/images/site/products/eff77dcb-e507-431a-be55-f9ef0e933ac9.jpg",
+      "price": 799,
+      "price_formatted": "₪799",
       "type": "robot",
       "in_stock": true,
       "is_mopping": true,
@@ -95,25 +76,6 @@
       "categories": [
         "mopping",
         "robot"
-      ]
-    },
-    {
-      "id": "mi_1633",
-      "store": "Mi-IL",
-      "title": "שואב אבק אלחוטי נטען שוטף דגם Mi Vacuum Cleaner G10 Plus - תצוגה",
-      "url": "https://www.mi-il.co.il/product/mi-vacuum-cleaner-g10-plus-ot",
-      "image": "https://www.mi-il.co.il/images/site/products/22583f4d-1c4a-42f3-93d3-0ea4bb4c7ad8.png",
-      "price": 599,
-      "price_formatted": "₪599",
-      "type": "handheld",
-      "in_stock": true,
-      "is_mopping": true,
-      "is_cleaner_only": false,
-      "is_manual": true,
-      "is_robot": false,
-      "categories": [
-        "mopping",
-        "manual"
       ]
     },
     {
@@ -215,11 +177,11 @@
     {
       "id": "xi_5",
       "store": "XiStore",
-      "title": "מוצר מתצוגה -DREAME Z30 שואב אבק אלחוטי דריימי",
-      "url": "https://www.xistore.co.il/items/7900602-%D7%9E%D7%95%D7%A6%D7%A8-%D7%9E%D7%AA%D7%A6%D7%95%D7%92%D7%94-DREAME-Z30-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%A8%D7%99%D7%99%D7%9E%D7%99",
-      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/16493935/show/e12a6537953373bede0c7669edb1feca.png",
-      "price": 1690,
-      "price_formatted": "₪1,690",
+      "title": "תצוגה - H15 Mix שלושה שואבים במוצר 1 DREAME",
+      "url": "https://www.xistore.co.il/items/8599477-%D7%AA%D7%A6%D7%95%D7%92%D7%94-H15-Mix-%D7%A9%D7%9C%D7%95%D7%A9%D7%94-%D7%A9%D7%95%D7%90%D7%91%D7%99%D7%9D-%D7%91%D7%9E%D7%95%D7%A6%D7%A8-1-DREAME",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/18985705/show/aa4b09f32c1bfa4dcc252be458d87d9e.png",
+      "price": 3590,
+      "price_formatted": "₪3,590",
       "type": "robot",
       "in_stock": true,
       "is_mopping": false,
@@ -235,30 +197,30 @@
     {
       "id": "xi_6",
       "store": "XiStore",
-      "title": "מתצוגה H15 PRO שואב - שוטף אלחוטי",
-      "url": "https://www.xistore.co.il/items/8948413-%D7%9E%D7%AA%D7%A6%D7%95%D7%92%D7%94-H15-PRO-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-Dreame",
-      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/20658017/show/3f5a69c0b64775be682fe20b97b0d952.jpg",
-      "price": 1380,
-      "price_formatted": "₪1,380",
-      "type": "handheld",
+      "title": "מוצר מתצוגה   - ‏שואב אבק רובוטי ‏מקרצף Dreame L20 Ultra דרימי לבן - אחריות יבואן רשמי - 24 חודשים",
+      "url": "https://www.xistore.co.il/items/6706806-%D7%9E%D7%95%D7%A6%D7%A8-%D7%9E%D7%AA%D7%A6%D7%95%D7%92%D7%94-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99-%D7%9E%D7%A7%D7%A8%D7%A6%D7%A3-Dreame-L20-Ultra-%D7%93%D7%A8%D7%99%D7%9E%D7%99-%D7%9C%D7%91%D7%9F-%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA-%D7%99%D7%91%D7%95%D7%90%D7%9F-%D7%A8%D7%A9%D7%9E%D7%99-24-%D7%97%D7%95%D7%93%D7%A9%D7%99%D7%9D",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/14090440/show/8db292bb4876be3e162b760fa6ec4346.jpg",
+      "price": 3990,
+      "price_formatted": "₪3,990",
+      "type": "robot",
       "in_stock": true,
       "is_mopping": true,
       "is_cleaner_only": false,
-      "is_manual": true,
-      "is_robot": false,
+      "is_manual": false,
+      "is_robot": true,
       "categories": [
         "mopping",
-        "manual"
+        "robot"
       ]
     },
     {
       "id": "xi_7",
       "store": "XiStore",
-      "title": "אריזה פגומה - H13 FlexReach שואב - שוטף אלחוטי",
-      "url": "https://www.xistore.co.il/items/8970271-%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%A4%D7%92%D7%95%D7%9E%D7%94-H13-FlexReach-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-Dreame",
-      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/20759611/show/a1c228d64e5997fc15575708e6af9a68.png",
-      "price": 1090,
-      "price_formatted": "₪1,090",
+      "title": "תצוגה  - H14 PRO שואב - שוטף אלחוטי",
+      "url": "https://www.xistore.co.il/items/7892517--%D7%AA%D7%A6%D7%95%D7%92%D7%94-H14-PRO-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-Dreame",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/16473444/show/93835d22fd75d1d399d3cac937900967.png",
+      "price": 1190,
+      "price_formatted": "₪1,190",
       "type": "handheld",
       "in_stock": true,
       "is_mopping": true,
