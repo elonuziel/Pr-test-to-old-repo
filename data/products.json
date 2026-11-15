@@ -1,5 +1,5 @@
 {
-  "last_updated": "08/11/2026 05:38",
+  "last_updated": "15/11/2026 05:56",
   "total_count": 18,
   "products": [
     {
@@ -138,6 +138,25 @@
     {
       "id": "xi_3",
       "store": "XiStore",
+      "title": "MOVA E30 ULTRA שואב-שוטף עוצמתי",
+      "url": "https://www.xistore.co.il/items/8506359-MOVA-E30-ULTRA-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/18304335/show/a49cb4288284fd57e13feca739c12a31.png",
+      "price": 2190,
+      "price_formatted": "₪2,190",
+      "type": "handheld",
+      "in_stock": true,
+      "is_mopping": true,
+      "is_cleaner_only": false,
+      "is_manual": true,
+      "is_robot": false,
+      "categories": [
+        "mopping",
+        "manual"
+      ]
+    },
+    {
+      "id": "xi_4",
+      "store": "XiStore",
       "title": "אריזה פגומה - שואב אבק רובוטי ‏מקרצף דרימי DREAME X60 ULTRA COMPLETE   שחור",
       "url": "https://www.xistore.co.il/items/9494003-%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%A4%D7%92%D7%95%D7%9E%D7%94-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99-%D7%9E%D7%A7%D7%A8%D7%A6%D7%A3-%D7%93%D7%A8%D7%99%D7%9E%D7%99-DREAME-X60-ULTRA-COMPLETE-%D7%A9%D7%97%D7%95%D7%A8-",
       "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/30011652/show/af6f4d8f8ea94a642bd1364c11a69b30.jpg",
@@ -155,7 +174,7 @@
       ]
     },
     {
-      "id": "xi_4",
+      "id": "xi_5",
       "store": "XiStore",
       "title": "אריזה פגומה DREAME Z30 שואב אבק אלחוטי דריימי",
       "url": "https://www.xistore.co.il/items/9384846-%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%A4%D7%92%D7%95%D7%9E%D7%94-DREAME-Z30-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%90%D7%9C%D7%97%D7%95%D7%98%D7%99-%D7%93%D7%A8%D7%99%D7%99%D7%9E%D7%99",
@@ -175,7 +194,7 @@
       ]
     },
     {
-      "id": "xi_5",
+      "id": "xi_6",
       "store": "XiStore",
       "title": "אריזה פגומה - שואב אבק רובוטי ‏מקרצף דרימי DREAME X60 ULTRA COMPLETE לבן",
       "url": "https://www.xistore.co.il/items/9384835-%D7%90%D7%A8%D7%99%D7%96%D7%94-%D7%A4%D7%92%D7%95%D7%9E%D7%94-%D7%A9%D7%95%D7%90%D7%91-%D7%90%D7%91%D7%A7-%D7%A8%D7%95%D7%91%D7%95%D7%98%D7%99-%D7%9E%D7%A7%D7%A8%D7%A6%D7%A3-%D7%93%D7%A8%D7%99%D7%9E%D7%99-DREAME-X60-ULTRA-COMPLETE-%D7%9C%D7%91%D7%9F",
@@ -191,25 +210,6 @@
       "categories": [
         "mopping",
         "robot"
-      ]
-    },
-    {
-      "id": "xi_6",
-      "store": "XiStore",
-      "title": "MOVA M1 שואב-שוטף עוצמתי",
-      "url": "https://www.xistore.co.il/items/7405602-MOVA-M1-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99",
-      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/15426175/show/52dbe6f1ca7a643addfec91b84bc9673.png",
-      "price": 1290,
-      "price_formatted": "₪1,290",
-      "type": "handheld",
-      "in_stock": true,
-      "is_mopping": true,
-      "is_cleaner_only": false,
-      "is_manual": true,
-      "is_robot": false,
-      "categories": [
-        "mopping",
-        "manual"
       ]
     },
     {
@@ -234,11 +234,11 @@
     {
       "id": "xi_8",
       "store": "XiStore",
-      "title": "MOVA E30 ULTRA שואב-שוטף עוצמתי",
-      "url": "https://www.xistore.co.il/items/8506359-MOVA-E30-ULTRA-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99",
-      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/18304335/show/a49cb4288284fd57e13feca739c12a31.png",
-      "price": 2190,
-      "price_formatted": "₪2,190",
+      "title": "MOVA M1 שואב-שוטף עוצמתי",
+      "url": "https://www.xistore.co.il/items/7405602-MOVA-M1-%D7%A9%D7%95%D7%90%D7%91-%D7%A9%D7%95%D7%98%D7%A3-%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99",
+      "image": "https://aicdn.speedsize.com/fee5b19f-33c6-4657-a924-0b2d0f188844/https://d3m9l0v76dty0.cloudfront.net/system/photos/15426175/show/52dbe6f1ca7a643addfec91b84bc9673.png",
+      "price": 1290,
+      "price_formatted": "₪1,290",
       "type": "handheld",
       "in_stock": true,
       "is_mopping": true,
